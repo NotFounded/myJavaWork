@@ -79,7 +79,7 @@ body {
 		<div id="ss"></div>
 		<div id="wh">
 		<form onsubmit="sub()">
-			<input type="number" min="0" id="width" maxlength="3" placeholder="宽度（默认值100）" onkeyup="keyup()" /> <br> 
+			<input type="number" id="width" placeholder="宽度（默认值100）" onkeyup="keyup()" /> <br> 
 		    <input type="submit" value="提交">  
 		</form>	
 			<input id="height" maxlength="3" placeholder="高度（默认值100）" />
@@ -89,7 +89,7 @@ body {
 		</div>
 		<div id="opa">
 		    <form onsubmit="sub()">
-			<input type="number" step="0.01" min="0" max="1" id="opacity" maxlength="15" placeholder="透明度（默认值1）" />
+			<input type="number" step="0.01" id="opacity" maxlength="15" placeholder="透明度（默认值1）" />
 		    <input type="submit" value="提交">
 		    </form>
 		</div>
