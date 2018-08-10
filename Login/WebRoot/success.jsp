@@ -89,7 +89,7 @@ body {
 		</div>
 		<div id="opa">
 		    <form onsubmit="sub()">
-			<input type="number" step="0.01" id="opacity" maxlength="15" placeholder="透明度（默认值1）" />
+			<input id="opacity" maxlength="15" placeholder="透明度（默认值1）" />
 		    <input type="submit" value="提交">
 		    </form>
 		</div>
