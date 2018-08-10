@@ -79,7 +79,7 @@ body {
 		<div id="ss"></div>
 		<div id="wh">
 		<form onsubmit="sub()">
-			<input type="number" id="width" placeholder="宽度（默认值100）" onkeyup="keyup()" /> <br> 
+			<input id="width" placeholder="宽度（默认值100）" onkeyup="keyup()" /> <br> 
 		    <input type="submit" value="提交">  
 		</form>	
 			<input id="height" maxlength="3" placeholder="高度（默认值100）" />
